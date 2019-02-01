@@ -456,3 +456,8 @@ header {
 header .header-content {
   padding: 250px 15px;
 }
+
+div.contact-me-wrapper + div {
+  display: flex;
+  justify-content: space-evenly;
+}
