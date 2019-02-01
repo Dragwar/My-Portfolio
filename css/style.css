@@ -443,7 +443,7 @@ header {
 }
 
 .skill-wrapper {
-  color: #ededed;
+  color: rgba(255,255,255,.7);
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -460,4 +460,9 @@ header .header-content {
 div.contact-me-wrapper + div {
   display: flex;
   justify-content: space-evenly;
+}
+
+.popup-gallery {
+  display: flex;
+  flex-flow: row wrap;
 }
