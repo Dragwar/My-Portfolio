@@ -424,3 +424,35 @@ body {
 header {
   background-attachment: fixed;
 }
+
+.skill {
+  background-image: url('../img/header.jpg');
+  background-attachment: fixed;
+  width: 100%;
+  min-height: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+}
+
+.lang-icon {
+  text-align: center;
+  padding: 15px 25px
+}
+
+.skill-wrapper {
+  color: #ededed;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.tech {
+  color: #ededed;
+}
+
+header .header-content {
+  padding: 250px 15px;
+}

@@ -3,6 +3,7 @@
   "title": "Portfolio",
   "version": "0.7.0",
   "author": "Everett Grassler",
+  "homepage": "https://everett-grassler.netlify.com/",
   "devDependencies": {
     "bootstrap": "^3.3.7",
     "browser-sync": "^2.13.0",
@@ -13,12 +14,12 @@
     "gulp-less": "^3.1.0",
     "gulp-rename": "^1.2.2",
     "gulp-uglify": "^1.5.4",
-    "jquery": "^1.11.3",
+    "jquery": "^3.0.0",
     "magnific-popup": "^1.1.0",
     "scrollreveal": "^3.1.4"
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/Dragwar/My-Portfolio"
   }
 }

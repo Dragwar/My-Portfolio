@@ -6,7 +6,7 @@ var uglify = require('gulp-uglify');
 
 // Minify compiled CSS
 gulp.task('minify-css', function() {
-    return gulp.src('css/*.css')
+    return gulp.src('css/style.css')
         .pipe(cleanCSS({ compatibility: 'ie8' }))
         .pipe(rename({ suffix: '.min' }))
         .pipe(gulp.dest('css'))
